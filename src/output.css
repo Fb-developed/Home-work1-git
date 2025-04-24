@@ -594,6 +594,14 @@ video {
   height: 55px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
 .w-\[150px\] {
   width: 150px;
 }
@@ -765,6 +773,16 @@ video {
   background-image: url('./img/img\ \(12\).png');
   background-size: 140%;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  .sm\:h-\[600px\] {
+    height: 600px;
+  }
+
+  .sm\:h-\[1000px\] {
+    height: 1000px;
+  }
 }
 
 @media (min-width: 768px) {
